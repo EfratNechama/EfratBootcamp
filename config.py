@@ -1,0 +1,29 @@
+csv_path = "..\\cifar10_100.csv"
+images_dir_path= '..\\resources\\'
+files_list_cifar10=[('data_batch_' + str(i)) for i in range(1, 6)] + ["test_batch"]
+files_list_cifar100=['train', 'test']
+meta_file_cifar10="batches.meta"
+meta_file_cifar100="meta"
+cifar10='cifar10'
+cifar100='cifar100'
+personal='personal'
+label_head_cifar10=b'labels'
+label_head_cifar100=b'coarse_labels'
+image_size=32
+num_classes_cifar10=10
+num_classes_cifar100=15
+# model_path="../model_cnn_cifar_bootcamp.h5"
+# history_path="../history_model_cnn_cifar_bootcamp.csv"
+model_path=r"C:\Users\1\Downloads\model_Anna_no_food_container (1)"
+history_path=r"C:\Users\1\Downloads\history_fnn_Anna_no_food_container"
+train_part=0.6
+validation_part=0.2
+test_part=0.2
+
+z_file_path='cfar10_modified_1000.npz'
+personal_image_path="output.png"
+my_class_predict=0
+my_class_add_image=1
+my_class_visu=2
+
+dataset_dir_name='..'
